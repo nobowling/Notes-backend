@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/notes
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ
+
+{
+    "content": "Tokenin testaus",
+    "important": "true",
+    "userId": "5c2e4debc7662511c0c341a0"
+}
